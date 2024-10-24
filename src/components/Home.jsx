@@ -10,7 +10,7 @@ import { SiMongodb } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
-
+import Resume from '../assets/PrinceKumarResume.pdf'
 import { ReactTyped, Typed } from "react-typed";
 
 function Home() {
@@ -41,7 +41,9 @@ function Home() {
                             websites. <br /><br /> I'm eager to work on projects where I can use my skills and grow as a developer. Making websites that
                             people
                             enjoy using is what I'm all about. <br /><br />Thanks for checking out my portfolio. I hope we can work together on some cool projects!
-                        </p><br />
+                        </p>
+                        <a className="text-blue-500 hover:text-blue-700" href={Resume} target='_blank'>Resume</a>
+
                         {/* social media icons  */}
                         <div className='flex flex-col items-center md:flex-row justify-between space-y-6 md:space-y-0'>
                             <div className='space-y-2'>
