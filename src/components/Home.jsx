@@ -10,7 +10,7 @@ import { SiMongodb } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
-import Resume from '../assets/PrinceKumarResume.pdf'
+import Resume from '../assets/PrinceKumarResumeupdated.pdf'
 import { ReactTyped, Typed } from "react-typed";
 
 function Home() {
